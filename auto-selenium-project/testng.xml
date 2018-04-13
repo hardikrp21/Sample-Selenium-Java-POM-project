@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample" verbose="1">
+
+	<parameter name="baseUrl" value="https://weather.com/" />
+
+
+	<test name="sample" preserve-order="false">
+
+		<classes>
+			<class name="com.sample.auto_selinium_sample.Testcase" />
+			
+		</classes>
+
+	</test>
+
+</suite>
+
+
